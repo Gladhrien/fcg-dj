@@ -5,6 +5,6 @@ Este repositório contém o código-fonte do Projeto Final da disciplina de Fund
 
 ## Compilação e Execução
 ### Windows
---
+---
 ### MacOS
 Execute o comando `make -f Makefile.macOS` para compilar. Para executar o código compilado, execute o comando `make -f Makefile.macOS run`.
