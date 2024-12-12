@@ -12,3 +12,6 @@ DEPS = include/matrices.h include/utils.h include/dejavufont.h
 # Regra para compilar main.cpp
 src/main.o: src/main.cpp $(DEPS)
 	g++ -std=c++11 -Wall -Wno-unused-function -g -I ./include/ -c src/main.cpp -o src/main.o
+
+run: ./bin/macOS/main
+	cd bin/macOS && ./main
