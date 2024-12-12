@@ -1,3 +1,4 @@
 /bin
 LEIAME.txt
 .DS_Store
+*.o
