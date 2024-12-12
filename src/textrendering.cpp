@@ -2,14 +2,14 @@
 //   and on https://github.com/rougier/freetype-gl
 #include <string>
 
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
+#include "../include/glad/glad.h"
+#include "../include/GLFW/glfw3.h"
 
-#include <glm/mat4x4.hpp>
-#include <glm/vec4.hpp>
+#include "../include/glm/mat4x4.hpp"
+#include "../include/glm/vec4.hpp"
 
-#include "utils.h"
-#include "dejavufont.h"
+#include "../include/utils.h"
+#include "../include/dejavufont.h"
 
 GLuint CreateGpuProgram(GLuint vertex_shader_id, GLuint fragment_shader_id); // Função definida em main.cpp
 

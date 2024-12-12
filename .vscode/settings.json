@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cstdio": "cpp",
+        "*.supports-builtin-modules": "cpp"
+    }
+}
